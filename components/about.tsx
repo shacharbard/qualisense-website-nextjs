@@ -60,7 +60,7 @@ const About = () => {
                   <IconComponent className={`text-${value.color}-600`} size={32} />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
-                <p className="text-muted-foreground">{value.description}</p>
+                <p className="text-muted-foreground text-left">{value.description}</p>
               </motion.div>
             )
           })}

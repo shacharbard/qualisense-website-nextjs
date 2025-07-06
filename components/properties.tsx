@@ -1,77 +1,77 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { MapPin, Home, DollarSign, TrendingUp } from "lucide-react"
-import Image from "next/image"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardTitle } from "@/components/ui/card"
+import { motion } from "framer-motion"
+import { DollarSign, Home, MapPin, TrendingUp } from "lucide-react"
+import Image from "next/image"
 
 const Properties = () => {
   const properties = [
     {
       id: 1,
-      title: "Downtown Moncton Office Complex",
-      type: "Commercial",
-      location: "Moncton, NB",
-      value: "$2.8M",
-      roi: "+12.5%",
+      title: "Saint John Appartments Complex",
+      type: "Residential",
+      location: "Saint John, NB",
+      value: "$1M",
+      roi: "+16.5%",
       image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800",
       description: "Prime commercial property in downtown core with high occupancy rates."
     },
     {
       id: 2,
-      title: "Fredericton Residential Portfolio",
+      title: "Saint John Residential Portfolio",
       type: "Residential",
-      location: "Fredericton, NB",
-      value: "$1.9M",
-      roi: "+8.3%",
+      location: "Saint John, NB",
+      value: "$0.5M",
+      roi: "+12.3%",
       image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
       description: "Collection of premium residential properties in desirable neighborhoods."
     },
-    {
-      id: 3,
-      title: "Saint John Industrial Park",
-      type: "Industrial",
-      location: "Saint John, NB",
-      value: "$3.2M",
-      roi: "+15.2%",
-      image: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Strategic industrial properties with excellent transportation access."
-    },
-    {
-      id: 4,
-      title: "Bathurst Mixed-Use Development",
-      type: "Mixed-Use",
-      location: "Bathurst, NB",
-      value: "$1.5M",
-      roi: "+10.7%",
-      image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
-      description: "Innovative mixed-use development combining retail and residential spaces."
-    }
+    // {
+    //   id: 3,
+    //   title: "Saint John Industrial Park",
+    //   type: "Industrial",
+    //   location: "Saint John, NB",
+    //   value: "$3.2M",
+    //   roi: "+15.2%",
+    //   image: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   description: "Strategic industrial properties with excellent transportation access."
+    // },
+    // {
+    //   id: 4,
+    //   title: "Bathurst Mixed-Use Development",
+    //   type: "Mixed-Use",
+    //   location: "Bathurst, NB",
+    //   value: "$1.5M",
+    //   roi: "+10.7%",
+    //   image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   description: "Innovative mixed-use development combining retail and residential spaces."
+    // }
   ]
 
   const stats = [
     {
       icon: Home,
-      value: "25+",
+      value: "10+",
       label: "Properties Owned",
       color: "blue"
     },
     {
       icon: DollarSign,
-      value: "$12M+",
+      value: "$1.5M+",
       label: "Portfolio Value",
       color: "green"
     },
     {
       icon: TrendingUp,
-      value: "11.2%",
+      value: "15.2%",
       label: "Average ROI",
       color: "purple"
     },
     {
       icon: MapPin,
-      value: "8",
+      value: "3",
       label: "NB Locations",
       color: "orange"
     }
